@@ -33,9 +33,9 @@ def result1():
         if opt == 'add':
             result = num1+num2
         if opt == 'subtraction':
-            result = num1+num2
+            result = num1-num2
         if opt == 'multiplication':
-            result = num1+num2
+            result = num1*num2
         if opt == 'division':
             result = num1/num2        
     return jsonify(result)
