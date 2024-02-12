@@ -40,5 +40,5 @@ def result1():
             result = num1/num2        
     return jsonify(result)
         
-if __name__ == '__main__':
-    app.run(debug=True)
+# if __name__ == '__main__':
+#     app.run(debug=True)
